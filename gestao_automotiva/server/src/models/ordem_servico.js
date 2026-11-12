@@ -18,7 +18,7 @@ export const Ordem_Servico = sequelize.define(
       validate: { min: 0 },
     },
     status: {
-      type: DataTypes.DECIMAL(10, 2),
+      type: DataTypes.STRING(20),
       allowNull: false,
       defaultValue: 'aberto',
       validate: {

@@ -48,7 +48,7 @@ export const listar_ordem = async (req, res) => {
   }
 };
 
-export const atualizarStatus = async (req, res) => {
+export const atualizar_status = async (req, res) => {
   try {
     const { id } = req.params;
     const { status } = req.body;
